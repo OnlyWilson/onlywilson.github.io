@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: linear-gradient(to right, #d96612, #f69958);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px; /* Espacio entre la imagen y el formulario */
+}
+
+.centered-image {
+    max-width: 180px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border: 5px solid #d96612; /* Borde blanco */
+    border-radius: 30%; /* Hace que el borde sea redondeado */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Sombra para un efecto más original */
+}
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+}
+.input-group input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+}
+.input-group i {
+    margin-right: 10px;
+    color: #c31432;
+}
+.forgot-password {
+    font-size: 14px;
+    color: #c31432;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+}
+.button {
+    background: linear-gradient(to right, #d96612, #ee8539);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.button:hover {
+    opacity: 0.8;
+}
+.down-button {
+    background: rgb(47, 156, 230);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.down-button:hover {
+    opacity: 0.8;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}

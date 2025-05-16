@@ -1,108 +1,37 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 <head>
-    <meta charset="utf-8">
-    <title>Elite Nautica</title>
-    <!--  <link rel="stylesheet" href="./style/index.css"> -->
-    <link rel="icon" type="image/png" href="./img/logo.png">
-<style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-            align-items: center;
-        }
-
-        header, footer {
-            background-color: #f2f2f2;
-            padding: 10px;
-            text-align: center;
-            width: 100%;
-        }
-
-        h1 {
-            margin: 0;
-        }
-
-        iframe {
-            width: 70vw; 
-            height: 80vh; 
-            margin: auto; 
-        }
-</style>
-
-
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ranking Juegos</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+  </head>
 <body>
-    <br><br>
-    <h1>Manual de uso de Squid (No completo)</h1>
-    <br>
-    <iframe src="./Practica_Squid.pdf" width="800" height="600" frameborder="0"></iframe>
+  <header>
+    <div class="logo">
+      <img src="./img/rankingjuegos.es.png" alt="Ranking Juegos" />
+      <h1>Ranking <strong>Juegos</strong></h1>
+    </div>
+    <nav>
+      <a href="./login.html">Accede</a>
+      <a href="./registro.html">Regístrate</a>
+      <a href="#">Legal</a>
+    </nav>
+  </header>
 
-<!--
-    <header>
-        <div class="logo">
-            <img class="logo" alt="logoprincipalnautico" src="./img/logo.png">
-        </div>
-
-        <div id="tp1">
-            <p> ELITE NAUTICA </p>
-        </div>
-        <div id="tp3">
-            <span><a href="https://es-es.facebook.com/AllendeLosMares.Alternativas/"><img class="rrss" src="./img/rrss/facebook.png" alt="facebookicono" ></a></span>
-            <span><a href="https://www.instagram.com/alegriamarineros/?hl=es"><img class="rrss" src="./img/rrss/instagram.png" alt="instagramicono" ></a></span>
-            <span><a href="https://www.youtube.com/@allendelosmares5831"><img class="rrss" src="./img/rrss/youtube.png" alt="youtubeicono" ></a></span>
-        </div>
-        <div id="tp2">
-            <ul>
-				<li><a href="./index.html">Inicio</a></li>
-				<li><a href="./paginas/barcos.html">Barcos</a></li>
-				<li><a href="./paginas/informacion.html">Información</a></li>
-                <li><a href="./paginas/carta.html">Carta Náutica</a></li>
-                <li><a href="./paginas/formulario.html">Contacto</a></li>
-			</ul>
-        </div>
-        
-
-    </header>
-    <video id="video" muted autoplay loop>
-        <source src="./video/videoindex.mp4" type="video/mp4">
-    </video>
-    <article>
-    <h2>Navegacion de recreo</h2>
-    Pescar, bucear, esquiar, competir, hacer turismo de puerto en puerto, 
-    o tomar un baño en las aguas transparentes de una cala, lejos de playas 
-    atestadas o contaminadas, son algunas de las posibilidades que le ofrece la navegación de recreo.
-    <br><br>La navegación de recreo no tiene por que ser ni cara ni complicada: usted 
-    puede alquilar el último barco presentado en el último Salón náutico por menos de 
-    lo que piensa y además, cambiar de destino o de barco cada año. Para navegar, no es 
-    imprescindible comprar un barco. Hay muchas formulas para disfrutar de la navegación 
-    de recreo y tampoco se necesita un lujoso yate paras ello. Una pequeña embarcación remolcable que, 
-    en invierno, podemos guardar en un garage o en el jardin, nos puede proporcionar navegadas inolvidables.
-    <br><br>Ver la costa desde la mar puede resultar un espectáculo fascinante: el paisaje cambia conforme el sol hace su camino y cuando este se pone tras el horizonte, es fácil alcanzar la plenitud y la calma.
-    <br><br>Navegar es tal vez una de las formas más placenteras de estar inmersos en la naturaleza, y cuando tenemos solo el cielo y la mar a la vista, es cuando mejor se nos manifiesta su grandeza.
-    <br><br>La vida a bordo proporciona ocasiones para reposadas charlas en cubierta, contemplando un aterdecer, imposible de mantener en tierra, o para perdernos en nuestros pensamientos.
-    <br><br>Claro que, primero, hay que aprender. Para la navegación de recreo se necesitan conocimientos y habilidades que se complementan: la teoría, y la práctica que se adquiere navegando y con el tiempo, y que permitirá afrontar cualquier situación o emergencia, siguiendo los procedimientos adecuados. Obtener un título de Patrón tampoco es difícil: en un par de meses puede obtener su título de patrón.
-    <br><br>Hay quienes gastan importantes sumas de dinero en adquirir un barco y se aventuran a salir a la mar sin los más elementales conocimientos, corriendo así riesgos innecesarios y poniendo en peligro sus vidas y la de los suyos. Y no solo eso sino que, al navegar sin título, pueden ser sancionados, perder la cobertura del seguro o ser obligados a regresar a puerto.
-    <br><br>Conocer la mar requiere un poco de tiempo... pero el tiempo y dinero empleados en su formación son una buena inversión en su seguridad y en la de los suyos.
-    <br><br>
-    <h2>Entrevista de Paula (Allende los Mares) <br>a Pedro (Alegria Marineros)</h2>
-    ¡Alegría marineros! Ya os sonará esta frase, frase que sin duda define a Pedro, armador del velero Copérnico Doblón. 
-    <br><br>Este otoño sacará en seco el velero para prepararlo para la siguiente travesía. Pedro cambia de vida, el Copérnico Doblón pasa a ser su casa, deja su vida en tierra para embarcar en un nuevo viaje del que solo conoce su punto de partida. 
-    <br><br>Lleva 4 años preparando el velero y probándose a sí mismo, con más de 100.000 millas navegadas en Enero 2019 cruzará el Atlántico por 7º vez para descubrir costas brasileñas, argentinas, Antártida y allá donde le lleve el viento. 
-    <br><br>Alegre, optimista y actitud entusiasta, Pedro abre las puertas de su casa a quien quiera formar parte de su proyecto de vida. Quiere encontrar un grupo de personas con las que compartir y navegar en diferentes partes del mundo. 
-    <br><br>Origen humilde, dejó de estudiar muy pronto. Su prioridad: salir del agujero. Ha trabajado de domingo a domingo los últimos 25 años, emprendiendo y llevando varios negocios. Gracias a ellos pudo comprarse varios veleros, comenzó con unos de 8 metros y con este último, el Colérico Doblón será con el que emprenda el viaje de su vida. En esta entrevista en el que hablamos sobre su origen, su trabajo, sus comienzos en el mar, su filosofía de vida.
-    <br><br>¿Cómo se vive un viaje a bordo del Copérnico Doblón? Tal y como lo vive Pedro, aventura, risas y alegría; lejos de la navegación técnica su estilo es aprender cada día y disfrutar con cada momento que se le brinda, echa un vistazo a los videos que publica casi diarios para ver el ambiente a bordo en su página de Facebook: Copérnico Doblón
-    <br><br>Aquí el audio de la entrevista del 17 de agosto de 2018:
-    <br><br>
-    <audio controls>
-        <source src="./audio/entrevista.mp3" type="audio/mpeg">
-    </audio>
-    </article>
--->
-    <footer>
-		<p> 2024 Alejandro Martin --- 2ºA  ---  Administracion Sistemas Informaticos y Red</p>
-	</footer>
+  <main>
+    <section class="card">
+      <h2>¡Juega!</h2>
+      <p>Bombardero Cocodrilo</p>
+    </section>
+    <section class="card">
+      <h2>¡Compite!</h2>
+      <p>Balerina Capuchina, mi mi mi mi mi mi mi mi mi mi mi mi mi mi mi mi mi </p>
+    </section>
+    <section class="card">
+      <h2>Comparte</h2>
+      <p>Noooooo, la poliziiiiiiiaaaaa</p>
+    </section>
+  </main>
 </body>
 </html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <form class="register-container" method="POST" action="registro.php">
+        <h2>Registro</h2>
+        <div class="input-group">
+            <img src="img/user.png" alt="User Icon">
+            <input type="text" name="username" placeholder="Nombre de Usuario" required>
+        </div>
+        <div class="input-group">
+            <img src="img/mail.png" alt="Email Icon">
+            <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="input-group">
+            <img src="img/tlf.png" alt="Phone Icon">
+            <input type="tel" name="telefono" placeholder="Teléfono" required>
+        </div>
+        <div class="input-group">
+            <img src="img/key.png" alt="Lock Icon">
+            <input type="password" id="password" name="password" placeholder="Contraseña" required>
+            <button type="button" class="toggle-btn" onclick="togglePassword('password', this)">👁</button>
+        </div>
+        <div class="input-group">
+            <img src="img/key.png" alt="Lock Icon">
+            <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirma tu Contraseña" required>
+            <button type="button" class="toggle-btn" onclick="togglePassword('confirm-password', this)">👁</button>
+        </div>
+        <button type="submit" class="button">Registrar</button>
+        <button type="button" class="button back-button" onclick="window.location.href='login.html'">Volver al Login</button>
+    </form>
+    
+
+    <script>
+        function togglePassword(inputId, button) {
+            var passwordInput = document.getElementById(inputId);
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+                button.textContent = "👁";
+            }
+        }
+    </script>
+</body>
+</html>
